@@ -41,13 +41,13 @@ const Footer = () => {
         <form className='bg-white md:flex-1 w-full md:max-w-[65%] flex items-center text-md sm:text-lg md:text-xl  rounded-md outline-[#7ea6dc]  focus-within:outline focus-within:outline-4 transition-[outline] duration-200'>
           <input
             type='text'
-            className='bg-transparent flex-1 max-w-[70%] outline-none  px-3 pt-3 pb-1 md:py-3 text-[#717171]'
+            className='bg-transparent flex-1 max-w-[70%] outline-none  px-3 py-2 md:py-3 text-[#717171]'
             placeholder={footerText.emailInput}
           />
           <button
             type='submit'
             onClick={(e) => e.preventDefault()}
-            className='bg-[#CDE5F6] w-[30%] px-3 pt-3 pb-1 md:py-3 border border-[#0F75BC] rounded-md text-[#0F75BC]'
+            className='bg-[#CDE5F6] w-[30%] px-3 py-2 md:py-3 border border-[#0F75BC] rounded-md text-[#0F75BC]'
           >
             {footerText.sendBtn}
           </button>
@@ -140,7 +140,7 @@ const Footer = () => {
         <div className='relative w-[70%] md:w-[30%] lg:w-[20%] flex items-center z-50'>
           <div
             onClick={() => setToggleLang((oldVal) => !oldVal)}
-            className={`w-full flex items-center justify-between text-white text-xl px-5 pt-4 pb-2 md:py-4 bg-[#0F75BC] cursor-pointer rounded-b-md`}
+            className={`w-full flex items-center justify-between text-white text-xl px-5 py-4 bg-[#0F75BC] cursor-pointer rounded-b-md`}
           >
             {footerText.lang}
             {toggleLang ? (

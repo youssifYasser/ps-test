@@ -32,12 +32,12 @@ const Navbar = () => {
       <li className='flex items-center w-full '>
         <input
           type='text'
-          className={`flex-1 py-[0.4rem] px-3 pt-2 rounded-md outline-[#AFC8EB]  focus:outline focus:outline-4 transition-[outline] duration-200 ${
+          className={`flex-1 py-[0.4rem] px-3 rounded-md outline-[#AFC8EB]  focus:outline focus:outline-4 transition-[outline] duration-200 ${
             locale === 'en' ? 'mr-2' : 'ml-2'
           }`}
           placeholder={navbarText.searchInput}
         />
-        <button className='pt-2 md:py-2 px-4 rounded-md text-[0.95rem] bg-transparent text-[#198754] border border-[#198754] hover:bg-[#198754] hover:text-white transition-colors duration-150 ease-out'>
+        <button className='py-2 px-4 rounded-md text-[0.95rem] bg-transparent text-[#198754] border border-[#198754] hover:bg-[#198754] hover:text-white transition-colors duration-150 ease-out'>
           {navbarText.searchBtn}
         </button>
       </li>

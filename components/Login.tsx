@@ -56,7 +56,7 @@ const Login = () => {
             <button
               type='submit'
               onClick={(e) => e.preventDefault()}
-              className='bg-[#25aae1] hover:bg-[#0F75BC] text-global px-3 pt-2 md:py-2 rounded-md text-white transition-colors duration-200 '
+              className='bg-[#25aae1] hover:bg-[#0F75BC] text-global px-3 py-2 rounded-md text-white transition-colors duration-200 '
             >
               {loginText.loginBtn}
             </button>
@@ -65,7 +65,7 @@ const Login = () => {
 
             <button
               type='button'
-              className='!mt-0 flex items-center justify-center space-x-2 text-xl md:text-2xl text-white bg-[#67A2C9] hover:bg-[#25aae1] px-3 pt-2 md:py-2 rounded-md transition-colors duration-200'
+              className='!mt-0 flex items-center justify-center space-x-2 text-xl md:text-2xl text-white bg-[#67A2C9] hover:bg-[#25aae1] px-3 py-2 rounded-md transition-colors duration-200'
             >
               <span className={`${locale === 'en' ? 'order-1' : 'order-2'}`}>
                 <LogoFacebook color={'#fff'} height='32px' width='32px' />
@@ -76,7 +76,7 @@ const Login = () => {
             </button>
             <button
               type='button'
-              className='flex items-center justify-center space-x-2 text-xl md:text-2xl text-black bg-white hover:bg-[lightgray] px-3 pt-2 md:py-2 rounded-md transition-colors duration-200'
+              className='flex items-center justify-center space-x-2 text-xl md:text-2xl text-black bg-white hover:bg-[lightgray] px-3 py-2 rounded-md transition-colors duration-200'
             >
               <span className={`${locale === 'en' ? 'order-1' : 'order-2'}`}>
                 <LogoGoogle color={'#000'} height='32px' width='32px' />
