@@ -140,7 +140,7 @@ const Footer = () => {
         <div className='relative w-[70%] md:w-[30%] lg:w-[20%] flex items-center z-50'>
           <div
             onClick={() => setToggleLang((oldVal) => !oldVal)}
-            className={`w-full flex items-center justify-between text-white text-xl px-5 py-4 bg-[#0F75BC] cursor-pointer rounded-b-md`}
+            className={`w-full flex items-center justify-between text-white text-xl px-5 pt-4 pb-3 md:py-4 bg-[#0F75BC] cursor-pointer rounded-b-md`}
           >
             {footerText.lang}
             {toggleLang ? (
