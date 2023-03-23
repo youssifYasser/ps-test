@@ -47,7 +47,7 @@ const Footer = () => {
           <button
             type='submit'
             onClick={(e) => e.preventDefault()}
-            className='bg-[#CDE5F6] w-[30%] px-3 py-2 md:py-3 border border-[#0F75BC] rounded-md text-[#0F75BC]'
+            className='bg-[#CDE5F6] w-[30%] px-3 pt-2 md:py-3 border border-[#0F75BC] rounded-md text-[#0F75BC]'
           >
             {footerText.sendBtn}
           </button>
@@ -169,7 +169,7 @@ const Footer = () => {
             </li>
             <li
               onClick={() => handleLanguage('ar')}
-              className={`cursor-pointer whitespace-nowrap w-full hover:bg-[#32A6A6] hover:text-white  px-3 py-4 duration-200 flex flex-col ${
+              className={`cursor-pointer whitespace-nowrap w-full hover:bg-[#32A6A6] hover:text-white  px-3 pt-4 md:py-4 duration-200 flex flex-col ${
                 locale === 'ar' && 'text-[#0F75BC]'
               }`}
             >
