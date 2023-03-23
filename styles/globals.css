@@ -4,7 +4,7 @@
 
 @layer base {
   .login-input {
-    @apply py-2 px-3 rounded-md text-lg md:text-xl font-[700] outline-[#AFC8EB]  focus:outline focus:outline-4 transition-[outline] duration-200 bg-[#CCCCCC] text-[#4E4E4E] placeholder-[#4E4E4E];
+    @apply pt-2 md:py-2 px-3 rounded-md text-lg md:text-xl font-[700] outline-[#AFC8EB]  focus:outline focus:outline-4 transition-[outline] duration-200 bg-[#CCCCCC] text-[#4E4E4E] placeholder-[#4E4E4E];
   }
 
   .text-global {

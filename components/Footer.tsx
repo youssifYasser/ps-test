@@ -41,7 +41,7 @@ const Footer = () => {
         <form className='bg-white md:flex-1 w-full md:max-w-[65%] flex items-center text-md sm:text-lg md:text-xl  rounded-md outline-[#7ea6dc]  focus-within:outline focus-within:outline-4 transition-[outline] duration-200'>
           <input
             type='text'
-            className='bg-transparent flex-1 max-w-[70%] outline-none  px-3 py-2 md:py-3 text-[#717171]'
+            className='bg-transparent flex-1 max-w-[70%] outline-none  px-3 pt-2 md:py-3 text-[#717171]'
             placeholder={footerText.emailInput}
           />
           <button

@@ -37,7 +37,7 @@ const Navbar = () => {
           }`}
           placeholder={navbarText.searchInput}
         />
-        <button className='py-2 px-4 rounded-md text-[0.95rem] bg-transparent text-[#198754] border border-[#198754] hover:bg-[#198754] hover:text-white transition-colors duration-150 ease-out'>
+        <button className='pt-2 md:py-2 px-4 rounded-md text-[0.95rem] bg-transparent text-[#198754] border border-[#198754] hover:bg-[#198754] hover:text-white transition-colors duration-150 ease-out'>
           {navbarText.searchBtn}
         </button>
       </li>
