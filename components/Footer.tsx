@@ -41,13 +41,13 @@ const Footer = () => {
         <form className='bg-white md:flex-1 w-full md:max-w-[65%] flex items-center text-md sm:text-lg md:text-xl  rounded-md outline-[#7ea6dc]  focus-within:outline focus-within:outline-4 transition-[outline] duration-200'>
           <input
             type='text'
-            className='bg-transparent flex-1 max-w-[70%] outline-none  px-3 pt-2 md:py-3 text-[#717171]'
+            className='bg-transparent flex-1 max-w-[70%] outline-none  px-3 pt-2 pb-3 md:py-3 text-[#717171]'
             placeholder={footerText.emailInput}
           />
           <button
             type='submit'
             onClick={(e) => e.preventDefault()}
-            className='bg-[#CDE5F6] w-[30%] px-3 pt-2 md:py-3 border border-[#0F75BC] rounded-md text-[#0F75BC]'
+            className='bg-[#CDE5F6] w-[30%] px-3 pt-2 pb-3 md:py-3 border border-[#0F75BC] rounded-md text-[#0F75BC]'
           >
             {footerText.sendBtn}
           </button>
@@ -169,7 +169,7 @@ const Footer = () => {
             </li>
             <li
               onClick={() => handleLanguage('ar')}
-              className={`cursor-pointer whitespace-nowrap w-full hover:bg-[#32A6A6] hover:text-white  px-3 pt-4 md:py-4 duration-200 flex flex-col ${
+              className={`cursor-pointer whitespace-nowrap w-full hover:bg-[#32A6A6] hover:text-white  px-3 py-4 duration-200 flex flex-col ${
                 locale === 'ar' && 'text-[#0F75BC]'
               }`}
             >
