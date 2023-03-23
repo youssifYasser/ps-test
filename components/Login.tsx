@@ -56,7 +56,7 @@ const Login = () => {
             <button
               type='submit'
               onClick={(e) => e.preventDefault()}
-              className='bg-[#25aae1] hover:bg-[#0F75BC] text-global px-3 md:py-2 rounded-md text-white transition-colors duration-200 '
+              className='bg-[#25aae1] hover:bg-[#0F75BC] text-global px-3 pt-2 md:py-2 rounded-md text-white transition-colors duration-200 '
             >
               {loginText.loginBtn}
             </button>
