@@ -23,6 +23,7 @@ const Footer = () => {
 
   const handleLanguage = (lang: string) => {
     push('/', '/', { locale: lang })
+    setToggleLang(false)
   }
 
   const socialLinks = [
