@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Bars3Icon } from '@heroicons/react/24/outline'
+import { MenuOutline } from 'react-ionicons'
 import { useState } from 'react'
 import { useRouter } from 'next/router'
 import en from '../languages/en'
@@ -63,7 +63,7 @@ const Navbar = () => {
             toggleNav && 'outline-4'
           } transition-all delay-150 duration-150 rounded-md`}
         >
-          <Bars3Icon className='h-8 text-[#686868]' />
+          <MenuOutline color={'#686868'} height={'32px'} width={'32px'} />
         </div>
         <ul
           className={`md:hidden ${locale === 'en' ? 'pl-4' : 'pr-4'} ${
